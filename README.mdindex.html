@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MELLORA</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #faf8fc;
+      color: #24152f;
+      padding-bottom: 80px;
+    }
+
+    header {
+      padding: 22px 18px 12px;
+      background: white;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid #eee;
+    }
+
+    .logo {
+      font-size: 28px;
+      font-weight: bold;
+      color: #5b2a86;
+      letter-spacing: 2px;
+    }
+
+    .subtitle {
+      color: #777;
+      margin-top: 5px;
+      font-size: 14px;
+    }
+
+    .feed {
+      columns: 2;
+      column-gap: 12px;
+      padding: 15px 12px;
+    }
+
+    .card {
+      break-inside: avoid;
+      background: white;
+      border-radius: 18px;
+      overflow: hidden;
+      margin-bottom: 12px;
+      box-shadow: 0 3px 12px rgba(0,0,0,.07);
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .info {
+      padding: 11px;
+    }
+
+    .name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .price {
+      color: #b08a35;
+      font-weight: bold;
+    }
+
+    .wilaya {
+      color: #888;
+      font-size: 12px;
+      margin-top: 4px;
+    }
+
+    nav {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 68px;
+      background: white;
+      border-top: 1px solid #eee;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      z-index: 20;
+    }
+
+    nav button {
+      border: none;
+      background: none;
+      color: #777;
+      font-size: 12px;
+    }
+
+    nav button.active {
+      color: #5b2a86;
+      font-weight: bold;
+    }
+
+    .icon {
+      display: block;
+      font-size: 21px;
+      margin-bottom: 3px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="logo">MELLORA</div>
+  <div class="subtitle">اكتشفي إبداعات النساء في الجزائر ✨</div>
+</header>
+
+<main class="feed">
+
+  <div class="card">
+    <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?auto=format&fit=crop&w=600&q=80">
+    <div class="info">
+      <div class="name">Robe élégante</div>
+      <div class="price">
